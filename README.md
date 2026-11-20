@@ -224,7 +224,3 @@ git push -u origin main
 ```
 
 Replace `YOUR-USERNAME` with your GitHub username. Check `git status` before committing. The `.gitignore` excludes virtual environments, `.env`, uploaded documents, and the local Chroma database. Do not upload private course material or model/cache files unless you have permission. If Git is not installed, install Git for Windows first.
-
-## 15. License and responsible use
-
-Use documents you own or are authorized to process. Review source passages before relying on generated answers. Add an appropriate open-source license before publishing if you intend others to reuse the code.
