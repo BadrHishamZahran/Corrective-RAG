@@ -225,19 +225,6 @@ git push -u origin main
 
 Replace `YOUR-USERNAME` with your GitHub username. Check `git status` before committing. The `.gitignore` excludes virtual environments, `.env`, uploaded documents, and the local Chroma database. Do not upload private course material or model/cache files unless you have permission. If Git is not installed, install Git for Windows first.
 
-## 13. Suggested evaluation checklist
-
-- [ ] Relevant question: retrieves the expected source and answers correctly.
-- [ ] Paraphrased question: still finds the right chunks.
-- [ ] Weak initial retrieval: triggers query rewriting and another retrieval attempt.
-- [ ] Out-of-scope question: avoids fabricating an answer.
-- [ ] Multiple documents: cites the correct filenames/pages.
-- [ ] Restart backend: previously indexed Chroma data remains available.
-
-## 14. Limitations and future improvements
-
-This is an educational starter implementation, not a production-grade knowledge platform. Useful next improvements include document deletion and re-indexing, per-course collections, hybrid search, cross-encoder reranking, stronger structured grading, streaming answers, automated evaluation datasets, and authentication.
-
 ## 15. License and responsible use
 
 Use documents you own or are authorized to process. Review source passages before relying on generated answers. Add an appropriate open-source license before publishing if you intend others to reuse the code.
